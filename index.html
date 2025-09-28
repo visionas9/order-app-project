@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jimmy's Dinner Mobile Order app</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-text">
+        <h1>Jimmy's Dinner</h1>
+        <p>The best burgers and pizzas in town.</p>
+      </div>
+    </header>
+
+    <section class="container-1" id="container-1"></section>
+    <section class="container-2 hidden" id="container-2">
+      <h2 class="order-title">Your order</h2>
+
+      <div id="order-list"></div>
+
+      <div class="order-divider"></div>
+
+      <div class="order-total">
+        <span>Total price:</span>
+        <span id="order-total">$0</span>
+      </div>
+
+      <button id="complete-order" class="complete-btn">Complete order</button>
+    </section>
+    <div class="modal-container"></div>
+    <script src="script.js" type="module"></script>
+  </body>
+</html>
